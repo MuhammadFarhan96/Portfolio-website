@@ -1,0 +1,36 @@
+4. Contact (contact.html)
+
+Content: A contact form for visitors to send a message with fields for name, email, subject, and message.
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Me</title>
+</head>
+<body>
+  <h1>Contact Me</h1>
+  
+  <form action="submit_form.php" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    
+    <label for="subject">Subject:</label><br>
+    <input type="text" id="subject" name="subject"><br><br>
+    
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+    
+    <input type="submit" value="Send">
+  </form>
+
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About Me</a> |
+    <a href="portfolio.html">Portfolio</a>
+  </nav>
+</body>
+</html>
